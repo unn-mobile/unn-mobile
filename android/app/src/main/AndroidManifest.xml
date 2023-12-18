@@ -38,5 +38,23 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+
+    <receiver android:name=".scheduleLarge" android:exported="false">
+        <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+        </intent-filter>
+        <meta-data android:name="android.appwidget.provider" android:resource="@xml/schedule_large_info"/>
+    </receiver>
+    
+    <receiver android:name=".scheduleSmall" android:exported="false">
+        <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+        </intent-filter>
+        <meta-data android:name="android.appwidget.provider" android:resource="@xml/schedule_small_info"/>
+    </receiver>
+
     </application>
+
+
+
 </manifest>
