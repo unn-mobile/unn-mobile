@@ -1,0 +1,157 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Android.AppWidget.Container"
+    android:layout_width="110dp"
+    android:layout_height="110dp"
+    android:theme="@style/Theme.Android.AppWidgetContainer"
+    android:background="@drawable/layout_bg"
+    android:id="@+id/widget_container"
+    >
+
+    <TextView
+        android:id="@+id/day_of_the_week_small"
+        android:layout_width="70dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/day_small"
+        android:textColor="#1CA49C"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+       <!-- android:text="Понедельник" -->
+
+    <TextView
+        android:id="@+id/current_date_small"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/current_day_small"
+        android:textSize="26sp"
+        android:textColor="#000000"
+        android:textStyle="" />
+    <!-- android:text = "4"  -->
+
+    <TextView
+        android:id="@+id/textAbsence_small"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="42dp"
+        android:text="@string/none_lessons"
+        android:textSize="10sp"
+        android:visibility="invisible"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    <!-- android:text="Пары на сегодня не найдены" -->
+    <!-- android:visibility="@string/invis_small" -->
+
+    <RelativeLayout
+        style="@style/Widget.Android.AppWidget.Container"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="44dp"
+        android:visibility="visible"
+        android:background="#FFFFFF"
+        android:theme="@style/Theme.Android.AppWidgetContainer">
+        <!-- android:visibility="@string/vis_small" -->
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/discipline_small"
+        android:layout_width="140dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="46dp"
+        android:text="@string/lessons_small"
+        android:textSize="10sp"
+        android:visibility="visible"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    <!-- android:text="Математический анализ" -->
+    <!-- android:visibility="@string/vis_small" -->
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="46dp"
+        android:text="..."
+        android:textSize="10sp"
+        android:visibility="visible"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    <!-- android:visibility="@string/vis_small" -->
+
+    <TextView
+        android:id="@+id/auditorium_small"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/classroom_small"
+        android:textSize="10sp"
+        android:visibility="visible"
+        android:textColor="#000000"
+        android:textStyle="" />
+    <!--  android:text="404"  -->
+    <!-- android:visibility="@string/vis_small" -->
+
+    <TextView
+        android:id="@+id/building_small"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/building_small"
+        android:textSize="10sp"
+        android:visibility="visible"
+        android:textColor="#000000"
+        android:textStyle="" />
+    <!-- android:text="/ Корпус 6" -->
+    <!-- android:visibility="@string/vis_small" -->
+
+    <TextView
+        android:id="@+id/beginLesson_small"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="74dp"
+        android:text="@string/Begin_small"
+        android:textSize="10sp"
+        android:visibility="visible"
+        android:textColor="#1CA49C"
+        android:textStyle="" />
+    <!-- android:text="13:00" -->
+    <!-- android:visibility="@string/vis_small" -->
+
+    <TextView
+        android:id="@+id/endLesson_small"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="74dp"
+        android:text="@string/end_small"
+        android:textSize="10sp"
+        android:visibility="visible"
+        android:textColor="#1CA49C"
+        android:textStyle="" />
+    <!--  android:text="14:30" -->
+    <!-- android:visibility="@string/vis_small" -->
+
+    <RelativeLayout
+        style="@style/Widget.Android.AppWidget.Container"
+        android:layout_width="2dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="46dp"
+        android:visibility="visible"
+        android:background="#1CA49C"
+        android:theme="@style/Theme.Android.AppWidgetContainer">
+
+        <!-- android:visibility="@string/vis_small" -->
+    </RelativeLayout>
+
+</RelativeLayout>
+

@@ -12,7 +12,7 @@ class UnnMobile extends StatelessWidget {
     return MaterialApp(
       home: const LoadingPage(),
       onGenerateRoute: router.Router.generateRoute,
-      theme: ThemeData(
+      theme: ThemeData( 
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
           seedColor: const Color(0xAA1A63B7),

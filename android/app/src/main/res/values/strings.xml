@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="day_small">Понедельник</string>
+    <string name="none_lessons">Пары на сегодня не найдены</string>
+    <string name="lessons_small">Математический анализ</string>
+    <string name="classroom_small">404</string>
+    <string name="building_small">/ Корпус 6</string>
+    <string name="Begin_small">13:00</string>
+    <string name="end_small">- 14:30</string>
+    <string name="current_day_small">4</string>
+    <string name="vis_small">visible</string>
+    <string name="invis_small">invisible</string>
+
+</resources>

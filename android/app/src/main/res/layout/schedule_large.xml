@@ -1,0 +1,374 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Android.AppWidget.Container"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:theme="@style/Theme.Android.AppWidgetContainer"
+    android:background="@drawable/layout_bg"
+    android:id="@+id/widget_container"
+    android:visibility="visible"
+    >
+
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="180dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:text="Понедельник, 4 декабря"
+        android:textColor="#1B232C"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textAbsence_large"
+        android:layout_width="180dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="36dp"
+        android:text="Пары на сегодня не найдены"
+        android:textColor="#717A84"
+        android:textSize="10sp"
+        android:textStyle=""
+        android:visibility="invisible"
+        /> <!-- Отсутствие пар -->
+
+    <!--
+=======
+======
+=====
+===
+==
+=
+-->
+
+
+  <RelativeLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/lessonOne"
+      android:layout_width="220dp"
+      android:layout_height="46dp"
+      android:layout_marginStart="4dp"
+      android:layout_marginTop="28dp"
+      android:theme="@style/Theme.Android.AppWidgetContainer"
+      android:background="#FFF6F5"
+      android:visibility="visible"
+      >
+
+      <TextView
+          android:layout_width="176dp"
+          android:layout_height="14dp"
+          android:layout_marginStart="10dp"
+          android:layout_marginTop="2dp"
+          android:text="Математический анализ"
+          android:textSize="10sp"
+          android:textColor="#1B232C"
+          android:textStyle="bold" />
+
+      <TextView
+          android:layout_width="100dp"
+          android:layout_height="14dp"
+          android:layout_marginStart="10dp"
+          android:layout_marginTop="16dp"
+          android:text="404 / Корпус 6"
+          android:textSize="10sp"
+          android:textColor="#1B232C"
+          android:textStyle="" />
+
+      <TextView
+          android:layout_width="140dp"
+          android:layout_height="14dp"
+          android:layout_marginStart="10dp"
+          android:layout_marginTop="28dp"
+          android:text="Лекция"
+          android:textSize="10sp"
+          android:textColor="#1CA49C"
+          android:textStyle="" />
+
+      <TextView
+          android:layout_width="30dp"
+          android:layout_height="15dp"
+          android:layout_marginStart="188dp"
+          android:layout_marginTop="4dp"
+          android:text="09:10"
+          android:textSize="10sp"
+          android:textColor="#1B232C"
+          android:textStyle="" />
+
+      <TextView
+          android:layout_width="30dp"
+          android:layout_height="15dp"
+          android:layout_marginStart="188dp"
+          android:layout_marginTop="28dp"
+          android:text="10:40"
+          android:textSize="10sp"
+          android:textColor="#1B232C"
+          android:textStyle="" />
+
+      <RelativeLayout
+          style="@style/Widget.Android.AppWidget.Container"
+          android:layout_width="2dp"
+          android:layout_height="46dp"
+          android:layout_marginStart="5dp"
+          android:layout_marginTop="0dp"
+          android:background="#1CA49C"
+          android:visibility="visible"
+          android:theme="@style/Theme.Android.AppWidgetContainer">
+      </RelativeLayout>
+
+  </RelativeLayout> <!-- Контейнер пары №1 -->
+
+  <!--
+=======
+======
+=====
+===
+==
+=
+-->
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/lessonTwo"
+        android:layout_width="220dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="82dp"
+        android:theme="@style/Theme.Android.AppWidgetContainer"
+        android:background="#EFF1FB"
+        android:visibility="visible"
+        >
+
+        <TextView
+            android:layout_width="176dp"
+            android:layout_height="14dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:text="Математический анализ"
+            android:textSize="10sp"
+            android:textColor="#1B232C"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="14dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16dp"
+            android:text="404 / Корпус 6"
+            android:textSize="10sp"
+            android:textColor="#1B232C"
+            android:textStyle="" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="14dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="28dp"
+            android:text="Практика"
+            android:textSize="10sp"
+            android:textColor="#7D60D1"
+            android:textStyle="" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="4dp"
+            android:text="09:10"
+            android:textSize="10sp"
+            android:textColor="#1B232C"
+            android:textStyle="" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="28dp"
+            android:text="10:40"
+            android:textSize="10sp"
+            android:textColor="#1B232C"
+            android:textStyle="" />
+
+        <RelativeLayout
+            style="@style/Widget.Android.AppWidget.Container"
+            android:layout_width="2dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="0dp"
+            android:background="#7D60D1"
+            android:visibility="visible"
+            android:theme="@style/Theme.Android.AppWidgetContainer">
+        </RelativeLayout>
+
+    </RelativeLayout> <!-- Контейнер пары №2 -->
+
+    <!--
+    =======
+    ======
+    =====
+    ===
+    ==
+    =
+    -->
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/lessonThree"
+        android:layout_width="220dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="136dp"
+        android:theme="@style/Theme.Android.AppWidgetContainer"
+        android:background="#EFF1FB"
+        android:visibility="visible"
+        >
+
+        <TextView
+            android:layout_width="176dp"
+            android:layout_height="14dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:text="Математический анализ"
+            android:textSize="10sp"
+            android:textColor="#1B232C"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="14dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16dp"
+            android:text="404 / Корпус 6"
+            android:textSize="10sp"
+            android:textColor="#1B232C"
+            android:textStyle="" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="14dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="28dp"
+            android:text="Лабораторная"
+            android:textSize="10sp"
+            android:textColor="#0961FF"
+            android:textStyle="" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="4dp"
+            android:text="09:10"
+            android:textSize="10sp"
+            android:textColor="#1B232C"
+            android:textStyle="" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="28dp"
+            android:text="10:40"
+            android:textSize="10sp"
+            android:textColor="#1B232C"
+            android:textStyle="" />
+
+        <RelativeLayout
+            style="@style/Widget.Android.AppWidget.Container"
+            android:layout_width="2dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="0dp"
+            android:background="#0961FF"
+            android:visibility="visible"
+            android:theme="@style/Theme.Android.AppWidgetContainer">
+        </RelativeLayout>
+
+    </RelativeLayout> <!-- Контейнер пары №3 -->
+
+    <!--
+=======
+======
+=====
+===
+==
+=
+-->
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/lessonFour"
+        android:layout_width="220dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="190dp"
+        android:theme="@style/Theme.Android.AppWidgetContainer"
+        android:background="#EFF1FB"
+        android:visibility="visible"
+        >
+
+        <TextView
+            android:layout_width="176dp"
+            android:layout_height="14dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:text="Математический анализ"
+            android:textSize="10sp"
+            android:textColor="#1B232C"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="14dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16dp"
+            android:text="404 / Корпус 6"
+            android:textSize="10sp"
+            android:textColor="#1B232C"
+            android:textStyle="" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="14dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="28dp"
+            android:text="Экзамен"
+            android:textSize="10sp"
+            android:textColor="#AA4B7E"
+            android:textStyle="" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="4dp"
+            android:text="09:10"
+            android:textSize="10sp"
+            android:textColor="#1B232C"
+            android:textStyle="" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="28dp"
+            android:text="10:40"
+            android:textSize="10sp"
+            android:textColor="#1B232C"
+            android:textStyle="" />
+
+        <RelativeLayout
+            style="@style/Widget.Android.AppWidget.Container"
+            android:layout_width="2dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="0dp"
+            android:background="#AA4B7E"
+            android:visibility="visible"
+            android:theme="@style/Theme.Android.AppWidgetContainer">
+        </RelativeLayout>
+
+    </RelativeLayout> <!-- Контейнер пары №4 -->
+
+</RelativeLayout>
